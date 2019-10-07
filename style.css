@@ -362,7 +362,7 @@ button:focus {
 }
 
 #mu-hero {
-	background-image: url("./assets/images/home2.jpg");
+	background-image: url("./assets/images/aether_background.png");
 	background-position: cover;
 	display: inline;
 	float: left;
