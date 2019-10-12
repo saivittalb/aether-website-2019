@@ -116,7 +116,6 @@ kbd {
 	background-color: #ddd;
 	padding: 4px 6px;
 	border-radius: 2px;
-	color: ;
 }
 
 address {
@@ -529,7 +528,7 @@ button:focus {
 	max-width: 60px;
 	position: absolute;
 	left: 30px;
-	top: 5px;
+	top: 10px;
 }
 
 .mu-navbar .mu-menu li a {
@@ -620,7 +619,7 @@ button:focus {
 
 
 #mu-video {
-	background-image: url("assets/images/vdoBG.gif");
+	background-image: url("assets/images/hypnotic.gif");
 	background-attachment: fixed;
 	background-position: center center;
 	-webkit-background-size: cover;
@@ -944,108 +943,6 @@ fo
 	color: #ffffff;
 
 }
-/*--------------------*/
-/* SPEAKERS */
-/*--------------------*/
-
-
-.secretaries{
-	width: 50%;
-	float: left;
-}
-.secretaries img{
-	max-width:250px;
-}
-.mu-speakers-area {	
-	display: inline;
-	float: left;
-	padding: 100px 0;
-	width: 100%;
-}
-
-.mu-speakers-content{
-	display: inline;
-	float: left;
-	margin-top: 50px;
-	width: 100%;
-}
-
-.mu-single-speakers {
-	padding: 0 10px;
-	outline: none;
-	text-align: center;
-	-webkit-transition: all 0.3s ease 0s;
-	transition: all 0.3s ease 0s;
-}
-
-.mu-speakers-slider .slick-next {
-	right: -60px;
-}
-
-.mu-speakers-slider .slick-prev {
-	left: -60px;
-}
-
-.mu-single-speakers{
-	align-items: center;
-}
-
-.mu-single-speakers img{
-	border-style: solid;
-	border-width: 5px;
-	border-color: white;
-	border-radius: 100%;
-	position: relative;
-	margin-right: 20px;
-	background-size: 100px 100px;
-}
-
-.mu-single-speakers-info {
-	font-size: 30;
-	display: inline;
-	float: left;
-	margin-top: 20px;
-	width: 100%;
-}
-
-.mu-single-speakers-info h3 {
-	font-family:  "comfortaaregular";
-	color: #f5fff7;
-	margin-bottom: 4px;
-	font-size: 22px;
-}
-
-.mu-single-speakers-info p {
-	margin-bottom: 5px;
-}
-.mu-single-speakers-info p a{
-	-webkit-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-	font-size: 30px;
-	color: #ffffff;
-}
-.mu-single-speakers-info p a:hover{
-	color: #ff4f4f;
-}
-
-.mu-single-speakers-social {
-
-}
-
-.mu-single-speakers-social li {
-	display: inline-block;
-}
-
-.mu-single-speakers-social li a {
-
-	display: inline-block;
-	margin-right: 5px;
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
-}
-
 
 /*--------------------*/
 /* VENUE */
@@ -1100,7 +997,6 @@ fo
 	margin-bottom: 25px;
 }
 
-
 /*--------------------*/
 /* PRICING */
 /*--------------------*/
@@ -1133,7 +1029,7 @@ fo
 .mu-pricing-area {
 	display: inline;
 	float: left;
-	padding: 200px 0;
+	padding: 75px 0;
 	width: 100%;
 	background-color: black;
 	margin-top: 100px;
@@ -1243,7 +1139,6 @@ fo
 	transform: rotate(-45deg);
 	text-align: center;
 }
-
 
 /*--------------------*/
 /* REGISTER */
@@ -1393,6 +1288,7 @@ fo
 	font-family: "comfortaaregular";
 	font-size: 18px;
 }
+
 /*--------------------*/
 /* SPONSORS */
 /*--------------------*/
@@ -1430,19 +1326,6 @@ fo
 .mu-sponsors-single img{
 	padding: 2% 3% 3% 3%;
 }
-
-/*--------------------*/
-/* FAQ */
-/*--------------------*/
-
-
-
-/*--------------------*/
-/* CONTACT US */
-/*--------------------*/
-
-
-
 
 /*--------------------*/
 /* FOOTER */
@@ -1892,7 +1775,6 @@ fo
 
 
 				
-
 }
 
 
@@ -2501,10 +2383,11 @@ img::-moz-selection {
 }
 
 #edm-title{
-	margin-top: 40px;
-	margin-left:37%;
+	margin-top: 150px;
+	margin-left: auto;
 	margin-right : auto;
 	color:white;
+	text-align: center;
 }
 @media screen and (min-width: 500px) and (max-width: 1500px) {
 	/* applies only if the screen is more than 500px & less than 1500px*/
@@ -3200,10 +3083,10 @@ canvas{
   padding-top: 110px;
   padding-bottom: 150px;
 }
-// #team-wrapper .page-inner-wrapper{
-//   width: 100%;
 
-// }
+#team-wrapper .page-inner-wrapper{
+	width: 100%;
+}
 
 .page-inner-wrapper .body{
   margin-top: 5vh;
@@ -3277,14 +3160,15 @@ canvas{
 }
 
 #gallery-title{
-	position: absolute;
-	margin-left: 38%;
-	margin-top: -70px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -200px;
 	color: white;
+	text-align: center;
 }
 
 
-/#mu-about,#mu-schedule,#mu-speakers,#mu-sponsors,#mu-register,mu-pricing{
+#mu-about,#mu-schedule,#mu-speakers,#mu-sponsors,#mu-register,mu-pricing{
 background: rgba(243,226,199,1);
 background: -moz-linear-gradient(45deg, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 1%, rgba(182,141,76,1) 48%, rgba(233,212,179,1) 100%);
 background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(243,226,199,1)), color-stop(1%, rgba(193,158,103,1)), color-stop(48%, rgba(182,141,76,1)), color-stop(100%, rgba(233,212,179,1)));
@@ -3296,7 +3180,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', end
 }
 
 
-#mu-about,#mu-schedule,#mu-speakers,#mu-sponsors,#mu-register,mu-pricing,{
+#mu-about,#mu-schedule,#mu-speakers,#mu-sponsors,#mu-register,#mu-pricing {
 	background-color: #282828;
 }
 
@@ -3501,12 +3385,12 @@ section{
 	}					
 	
 	#edm-title{
-		margin-left: 70px;
+		margin-left: 0px;
 	}
 	#gallery-title{
 		text-align: center;
-		margin-top: -190px;
-		margin-left: 20px;
+		margin-top: -200px;
+		margin-left: auto;
 	}
 	.mu-single-speakers {
 	margin: 0px 35px 0 35px;
