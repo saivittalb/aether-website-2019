@@ -1602,14 +1602,14 @@ fo
 		margin-left: 0;
 	}
 
-	#verve,#raga,#Sync,#nukkad,#survivor{
+	#verve,#raga,#Sync,#nukkad,#survivor,#btclock,#ratsel{
 		max-width: 110px;
 		margin-left: 150px;
 		margin-top: -20px;
 
 	}
 
-	#panache,#Dropping,#wtm,#dt,#stageCraft,#WTM,#PointBlanc,#Newkonomy,#MasterShot{
+	#panache,#Dropping,#wtm,#stageCraft,#dt,#WTM,#PointBlanc,#Newkonomy,#MasterShot,#rcoding,#PointBlanc,#bit,#groove{
 		max-width:110px;
 		margin-left: 220px;
 		margin-top: -10px;
@@ -2944,7 +2944,34 @@ img::-moz-selection {
 #verve{
 	max-width: 180px;
 	position : absolute;
+	margin-left: -220px;
+	margin-top: -20px;
+	display: inline;
+
+}
+
+#btclock{
+	max-width: 180px;
+	position : absolute;
+	margin-left: -220px;
+	margin-top: -20px;
+	display: inline;
+
+}
+
+#MasterShot{
+	max-width: 180px;
+	position : absolute;
 	margin-left: 60px;
+	margin-top: -20px;
+	display: inline;
+
+}
+
+#Newkonomy{
+	max-width: 180px;
+	position : absolute;
+	margin-left: -220px;
 	margin-top: -20px;
 	display: inline;
 
@@ -2954,7 +2981,31 @@ img::-moz-selection {
 #panache{
 	max-width: 180px;
 	position : absolute;
-	margin-left: -220px;
+	margin-left: 60px;
+	margin-top: -20px;
+	display: inline;
+}
+
+#groove{
+	max-width: 180px;
+	position : absolute;
+	margin-left: 60px;
+	margin-top: -20px;
+	display: inline;
+}
+
+#bit{
+	max-width: 180px;
+	position : absolute;
+	margin-left: 60px;
+	margin-top: -20px;
+	display: inline;
+}
+
+#PointBlanc{
+	max-width: 180px;
+	position : absolute;
+	margin-left: 60px;
 	margin-top: -20px;
 	display: inline;
 }
@@ -2962,7 +3013,23 @@ img::-moz-selection {
 #raga{
 	max-width: 180px;
 	position : absolute;
-	margin-left: 60px;
+	margin-left: -220px;
+	margin-top: -20px;
+	display: inline;
+}
+
+#rcoding{
+	max-width: 180px;
+	position : absolute;
+	margin-left: -220px;
+	margin-top: -20px;
+	display: inline;
+}
+
+#ratsel{
+	max-width: 180px;
+	position : absolute;
+	margin-left: -220px;
 	margin-top: -20px;
 	display: inline;
 }
@@ -2970,7 +3037,7 @@ img::-moz-selection {
 #dt{
 	max-width: 180px;
 	position : absolute;
-	margin-left: -220px;
+	margin-left: 60px;
 	margin-top: -20px;
 	display: inline;
 }
@@ -2978,7 +3045,7 @@ img::-moz-selection {
 #Sync{
 	max-width: 180px;
 	position : absolute;
-	margin-left: 60px;
+	margin-left: -220px;
 	margin-top: -20px;
 	display: inline;
 }
@@ -2986,7 +3053,7 @@ img::-moz-selection {
 #Dropping{
 	max-width: 180px;
 	position : absolute;
-	margin-left: -220px;
+	margin-left: 60px;
 	margin-top: -20px;
 	display: inline;
 }
@@ -3011,7 +3078,7 @@ img::-moz-selection {
 #stageCraft{
 	max-width: 180px;
 	position : absolute;
-	margin-left: -220px;
+	margin-left: 60px;
 	margin-top: -20px;
 	display: inline;
 }
@@ -3019,7 +3086,7 @@ img::-moz-selection {
 #survivor{
 	max-width: 180px;
 	position : absolute;
-	margin-left: 60px;
+	margin-left: -220px;
 	margin-top: -20px;
 	display: inline;
 }
@@ -3341,7 +3408,7 @@ section{
 
 
 
-	#verve,#raga,#Sync,#nukkad,#survivor,#panache,#Dropping,#wtm,#dt,#stageCraft,#WTM{
+	#verve,#raga,#Sync,#nukkad,#survivor,#panache,#Dropping,#wtm,#dt,#stageCraft,#WTM,#btclock,#ratsel,#rcoding,#PointBlanc,#bit,#groove{
 		max-width: 110px;
 		margin-left: 180px;
 		margin-top: -20px;
