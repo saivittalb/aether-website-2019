@@ -1602,14 +1602,14 @@ fo
 		margin-left: 0;
 	}
 
-	#verve,#raga,#Sync,#nukkad,#survivor,#btclock,#ratsel,#bob{
+	#verve,#raga,#Sync,#nukkad,#survivor,#btclock,#ratsel,#bob,#orion{
 		max-width: 110px;
 		margin-left: 150px;
 		margin-top: -20px;
 
 	}
 
-	#panache,#Dropping,#wtm,#stageCraft,#dt,#WTM,#PointBlanc,#Newkonomy,#MasterShot,#rcoding,#PointBlanc,#bit,#groove{
+	#panache,#Dropping,#wtm,#stageCraft,#dt,#WTM,#PointBlanc,#Newkonomy,#MasterShot,#rcoding,#PointBlanc,#bit,#groove,#hack{
 		max-width:110px;
 		margin-left: 220px;
 		margin-top: -10px;
@@ -3011,6 +3011,14 @@ img::-moz-selection {
 	display: inline;
 }
 
+#hack{
+	max-width: 180px;
+	position : absolute;
+	margin-left: 60px;
+	margin-top: -20px;
+	display: inline;
+}
+
 #PointBlanc{
 	max-width: 180px;
 	position : absolute;
@@ -3036,6 +3044,14 @@ img::-moz-selection {
 }
 
 #ratsel{
+	max-width: 180px;
+	position : absolute;
+	margin-left: -220px;
+	margin-top: -20px;
+	display: inline;
+}
+
+#orion{
 	max-width: 180px;
 	position : absolute;
 	margin-left: -220px;
@@ -3417,7 +3433,7 @@ section{
 
 
 
-	#verve,#raga,#Sync,#nukkad,#survivor,#panache,#Dropping,#wtm,#dt,#stageCraft,#WTM,#btclock,#ratsel,#rcoding,#PointBlanc,#bit,#groove,#bob{
+	#verve,#raga,#Sync,#nukkad,#survivor,#panache,#Dropping,#wtm,#dt,#stageCraft,#WTM,#btclock,#ratsel,#rcoding,#PointBlanc,#bit,#groove,#bob,#hack,#orion{
 		max-width: 110px;
 		margin-left: 180px;
 		margin-top: -20px;
