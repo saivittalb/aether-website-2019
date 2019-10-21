@@ -1602,7 +1602,7 @@ fo
 		margin-left: 0;
 	}
 
-	#verve,#raga,#Sync,#nukkad,#survivor,#btclock,#ratsel{
+	#verve,#raga,#Sync,#nukkad,#survivor,#btclock,#ratsel,#bob{
 		max-width: 110px;
 		margin-left: 150px;
 		margin-top: -20px;
@@ -2944,6 +2944,15 @@ img::-moz-selection {
 #verve{
 	max-width: 180px;
 	position : absolute;
+	margin-left: 60px;
+	margin-top: -20px;
+	display: inline;
+
+}
+
+#bob{
+	max-width: 180px;
+	position : absolute;
 	margin-left: -220px;
 	margin-top: -20px;
 	display: inline;
@@ -2953,7 +2962,7 @@ img::-moz-selection {
 #btclock{
 	max-width: 180px;
 	position : absolute;
-	margin-left: -220px;
+	margin-left: 60px;
 	margin-top: -20px;
 	display: inline;
 
@@ -2962,7 +2971,7 @@ img::-moz-selection {
 #MasterShot{
 	max-width: 180px;
 	position : absolute;
-	margin-left: 60px;
+	margin-left: -220px;
 	margin-top: -20px;
 	display: inline;
 
@@ -2971,7 +2980,7 @@ img::-moz-selection {
 #Newkonomy{
 	max-width: 180px;
 	position : absolute;
-	margin-left: -220px;
+	margin-left: 60px;
 	margin-top: -20px;
 	display: inline;
 
@@ -2981,7 +2990,7 @@ img::-moz-selection {
 #panache{
 	max-width: 180px;
 	position : absolute;
-	margin-left: 60px;
+	margin-left: -220px;
 	margin-top: -20px;
 	display: inline;
 }
@@ -2989,7 +2998,7 @@ img::-moz-selection {
 #groove{
 	max-width: 180px;
 	position : absolute;
-	margin-left: 60px;
+	margin-left: -220px;
 	margin-top: -20px;
 	display: inline;
 }
@@ -3013,7 +3022,7 @@ img::-moz-selection {
 #raga{
 	max-width: 180px;
 	position : absolute;
-	margin-left: -220px;
+	margin-left: 60px;
 	margin-top: -20px;
 	display: inline;
 }
@@ -3045,7 +3054,7 @@ img::-moz-selection {
 #Sync{
 	max-width: 180px;
 	position : absolute;
-	margin-left: -220px;
+	margin-left: 60px;
 	margin-top: -20px;
 	display: inline;
 }
@@ -3053,7 +3062,7 @@ img::-moz-selection {
 #Dropping{
 	max-width: 180px;
 	position : absolute;
-	margin-left: 60px;
+	margin-left: -220px;
 	margin-top: -20px;
 	display: inline;
 }
@@ -3069,7 +3078,7 @@ img::-moz-selection {
 #nukkad{
 	max-width: 180px;
 	position : absolute;
-	margin-left: 60px;
+	margin-left: -220px;
 	margin-top: -20px;
 	display: inline;
 }
@@ -3078,7 +3087,7 @@ img::-moz-selection {
 #stageCraft{
 	max-width: 180px;
 	position : absolute;
-	margin-left: 60px;
+	margin-left: -220px;
 	margin-top: -20px;
 	display: inline;
 }
@@ -3086,7 +3095,7 @@ img::-moz-selection {
 #survivor{
 	max-width: 180px;
 	position : absolute;
-	margin-left: -220px;
+	margin-left: 60px;
 	margin-top: -20px;
 	display: inline;
 }
@@ -3408,7 +3417,7 @@ section{
 
 
 
-	#verve,#raga,#Sync,#nukkad,#survivor,#panache,#Dropping,#wtm,#dt,#stageCraft,#WTM,#btclock,#ratsel,#rcoding,#PointBlanc,#bit,#groove{
+	#verve,#raga,#Sync,#nukkad,#survivor,#panache,#Dropping,#wtm,#dt,#stageCraft,#WTM,#btclock,#ratsel,#rcoding,#PointBlanc,#bit,#groove,#bob{
 		max-width: 110px;
 		margin-left: 180px;
 		margin-top: -20px;
@@ -3425,7 +3434,7 @@ section{
 	
 
 	#mu-hero{
-		background-image: url("assets/images/aether_background.png");
+		background-image: url("assets/images/home2.jpg");
 	}
 
 
