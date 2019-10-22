@@ -619,8 +619,7 @@ button:focus {
 
 
 #mu-video {
-	background: url("assets/images/hypnotic.gif");
-	background-attachment: fixed;
+	background: url("assets/images/hypnotic.gif") 0 0;
 	background-position: center center;
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -3495,7 +3494,8 @@ section{
 	
 
 	#mu-hero{
-		background: url("assets/images/aether_background.png");
+		background: url("assets/images/aether_background.png") 0 0;
+		background-size: cover;
 	}
 
 
