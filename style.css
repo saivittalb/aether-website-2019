@@ -620,6 +620,7 @@ button:focus {
 
 #mu-video {
 	background: url("assets/images/hypnotic.gif") 0 0;
+	background-attachment: fixed;
 	background-position: center center;
 	-webkit-background-size: cover;
 	background-size: cover;
