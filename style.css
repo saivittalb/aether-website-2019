@@ -3496,7 +3496,7 @@ section{
 
 	#mu-hero{
 		background: url("assets/images/aether_background.png") 0 0;
-		background-size: cover;
+		background-attachment: scroll; 
 	}
 
 
