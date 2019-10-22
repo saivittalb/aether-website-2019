@@ -390,8 +390,8 @@
 							
 							<div class="mu-title-area" >
 								<h2 class="mu-title">Our Sponsors</h2>
-								<p class="mu-content">On behalf of the entire team, we gratefully acknowledge and thank our generous sponsors for believing in us. With the continued support and generosity the Fest was able to reach its utmost potential. 
-A glimpse at the some of the assortment of our sponsors.</p>
+								<p class="mu-content">On behalf of the entire team, we gratefully acknowledge and thank our generous sponsors for believing in us. With the continued support and generosity the Fest was able to reach its utmost potential.
+									A glimpse at the some of the assortment of our sponsors.</p>
 							</div>
 						
 							<!-- Start spnonsors brand logo -->
@@ -456,62 +456,10 @@ A glimpse at the some of the assortment of our sponsors.</p>
 											<img src="assets/images/sponsor8.jpeg" alt="Brand Logo">
 										</div>
 									</div>
-<!--
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor.png" alt="Brand Logo">
-										</div>
-									</div>
-
-	                                <div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									-->
-
-									</center>
-									</div>
 								</div>
 							</div>
-							<!-- End spnonsors brand logo -->
+						</div>
+						<!-- End spnonsors brand logo -->
 
 		<!-- Start Register  -->
 
@@ -537,74 +485,13 @@ A glimpse at the some of the assortment of our sponsors.</p>
 								</a>
 								<h2 class="mu-title" style="padding-top: 50px;"> Our Team </h2>
 								<img src="assets/images/OurTeam.JPG" id="team_image" alt="team_image" style="padding-top: 50px;" />
-							</center>
-							
-							<br>
-								
-								<!--
-								<p class = "mu-content"><br><br>Pay Here</p>
-								<a href="" target="_blank">
-									<button type="submit" id="contact-submit" class="mu-reg-pay-btn">Pay</button>
-								</a>
-							</div>
-							<!-- FORM Content
-							<div class="mu-register-content">
-								<form class="mu-register-form">
-
-									<div class="row">
-										<div class="col-md-6">
-											<div class="form-group">                
-												<input type="text" class="form-control" autocomplete="off" placeholder="Your Full Name" id="name" name="name" required="">
-											</div>
-										</div>
-
-										<div class="col-md-6">
-											<div class="form-group">                
-												<input type="email" class="form-control" autocomplete="off" placeholder="Enter Your Email" id="email" name="email" required="">
-											</div>     
-										</div>
-									</div>
-
-									<div class="row">
-										<div class="col-md-6">
-											<div class="form-group">                
-												<input type="text" class="form-control" autocomplete="off" placeholder="Your Phone Number" id="phone" name="telephone" required="">
-											</div>
-										</div>
-										<div class="col-md-6">
-											
-										<div class="form-group"> 
-											<select class="form-control" name="Category" id="Category">
-												<option value="0">General Information/Feedback</option>
-												<option value="1">Sponsorship</option>
-												<option value="2">Events</option>
-												<option value="3">Others</option>
-											</select>
-										</div>      
-										</div>
-									</div>
-									<div class="form-group">
-										<textarea class="form-control" placeholder="Message" autocomplete="off" id="message" name="message" required></textarea>
-									</div>
-
-									<button type="submit" id="contact-submit" class="mu-reg-submit-btn">SUBMIT</button>
-
-					            </form>
-							</div> -->
-
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 		<!-- End Register -->
-
 		
-
-		
-
-		
-
 	</main>
 	
 	<!-- End main content -->	
@@ -748,42 +635,7 @@ A glimpse at the some of the assortment of our sponsors.</p>
     <!-- Custom js -->
 	<script type="text/javascript" src="assets/js/custom.js"></script>
 	<script type="text/javascript" src="assets/js/scripts.js"></script>
-	<!--
-	<script>
 
-function sendForm(e){
-  console.log("data passed");
-  $.post("contact_us/contact.php", {
-    subject: $('#Category option:selected').text(),
-    mobile: $('#phone').val(),
-    name: $('#name').val(),
-    email: $('#email').val(),
-    message: $('#message').val(),
-  },
-  function(data){
-    $(".error-message").html(data);
-    console.log(data);
-  });
-}
-
-function clearForm(){
-    $('#Category').val('');
-    $('#phone').val('');
-    $('#name').val('');
-    $('#email').val('');
-    $('#message').val('');
-}
-
-$('#contact-submit').on('click', function(e){
-  e.preventDefault();
-    sendForm();
-    window.alert('Thank You! Your Message was sent!');
-    clearForm();  
-  
-});
-
-</script>
--->
 <script>
 	function ragaRules(){
 		var x = document.getElementById("ragaRules");
