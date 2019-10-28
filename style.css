@@ -264,6 +264,20 @@ button:focus {
 	animation: spin 1s linear infinite;
 }
 
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
 @-webkit-keyframes spin {
 	0% {
 		-webkit-transform: rotate(0deg);
