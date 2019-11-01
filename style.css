@@ -3074,7 +3074,7 @@ img::-moz-selection {
 #PointBlanc{
 	max-width: 180px;
 	position : absolute;
-	margin-left: 60px;
+	margin-left: -220px;
 	margin-top: -20px;
 	display: inline;
 }
@@ -3090,7 +3090,7 @@ img::-moz-selection {
 #rcoding{
 	max-width: 180px;
 	position : absolute;
-	margin-left: -220px;
+	margin-left: 60px;
 	margin-top: -20px;
 	display: inline;
 }
