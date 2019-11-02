@@ -137,6 +137,82 @@
 		<!-- End hero featured area -->
 
 		</div>
+		<style>
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  justify-content:center;
+  top: 25%;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}	
+span.Schedule:hover{
+	background-color:red !important;
+	background-position: right center;
+}
+.Schedule{
+	/*background-image: linear-gradient(to right, #000000 0%, #434343 51%, #000000 100%);*/
+	background-color: red !important;
+}	
+.schedulediv{
+	align-items : center;
+	justify-content:center;
+	width:100%;
+	height:100%;
+}
+@media screen and (min-width: 800px) {
+    .schedulediv{
+	width:100%;
+	height:100%;
+	padding: 10px 150px 10px 150px;
+}
+}
+</style>
 	</header>
 	<!-- End Header -->
 	
@@ -232,12 +308,24 @@
 
 		<!-- Start Events  -->
 		<section id="mu-schedule">
+			<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+  	<div class = "schedulediv">
+  	<img src = "assets/images/schedule1.jpeg">
+  	</div>
+  	<div class = "schedulediv">
+  	<img src = "assets/images/schedule2.jpeg">
+  	</div>
+  </div>
+</div>
+
 			<div class="mu-schedule-area">
 				<div class="mu-title-area">
 					<h2 class="mu-title">Events</h2>
 					<p class="mu-content">Aether has always promised a consortium of cultural, technical, and literary events that will span over a period of two days, aimed at bringing out the all-round talents of individuals. From events that wrack your brains like MECHacks, to completely fun-filled games like Filmy Fungama, Aether has something for everyone. Our pro-shows have constantly been the soul of the fest featuring renowned celebrities from all over the country.</p>
+					<span class = "Schedule" style="font-size:30px;cursor:pointer;color:white;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);border-radius: 7px;padding: 5px;font-family:'Lato', sans-serif;" onclick="openNav()"> SCHEDULE </span>
 				</div>
-			
 				<div id="app" class="container_card" style="margin-bottom: 200px;" >
 					<a href="cultural.html"><div class="card-social" id="soc">
 						<div class="card-wrap wow fadeInDown delay-03s animated"
@@ -313,11 +401,11 @@
 									<div id = "hos" class="card-hospitality">
 										<div class="card-wrap hospitality wow fadeInDown delay-09s animated" style="visibility: visible; animation-name: fadeInDown;">
 											<div id="card3" class="card" style="transform: rotateY(0deg) rotateX(0deg);">
-												<div class = "edm" class="card-bg" style="background-image: url(&quot;assets/images/.jpeg?w=940&amp;h=650&amp;auto=compress&amp;cs=tinysrgb&quot;);background-size: 100% 100%; background-repeat: no-repeat; opacity: 0.5; filter: alpha(opacity=50);"></div> 
+												<div class = "edm" class="card-bg" style="background-image: url(&quot;assets/images/bn.jpg?w=940&amp;h=650&amp;auto=compress&amp;cs=tinysrgb&quot;);background-size: 100% 100%; background-repeat: no-repeat; opacity: 0.5; filter: alpha(opacity=50);"></div> 
 												 	<div class="card-info">
-												 		<h1 class="card-head" align="center"> DJ </h1> 
-												 		<p class="card-para" align="center"> 10th November 2019</p>
-														
+												 		<h1 class="card-head accod" align="center"> DJ </h1> 
+														<p class="card-para" align="center"> DJ Kalpanik Bass </p>
+														<p class="card-para" align="center"> DJ Siana Catherine </p>
 												 	</div>
 												</div>
 											</div>
@@ -448,12 +536,7 @@
 									</div>
 									<div class="col-md-2 col-sm-4 col-xs-4">
 										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor10.jpeg" alt="Brand Logo">
-										</div>
-									</div>
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor11.jpeg" alt="Brand Logo">
+											<img src="assets/images/annapurna.jpeg" alt="Brand Logo">
 										</div>
 									</div>
 								</div>
@@ -772,6 +855,13 @@
                 l.style.display = "none";
             }
         }
+        function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
 
 </script>
 
