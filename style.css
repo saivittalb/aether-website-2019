@@ -14,6 +14,7 @@ section{
 	background-color: black;
 }
 
+
 body {
 	background-color: black;
 	font-family: 'Open Sans', sans-serif;
@@ -152,6 +153,12 @@ button:focus {
 	border: none;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 /* ========= BUTTON =========*/
 
